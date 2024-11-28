@@ -22,68 +22,6 @@ const HelpModal = ({ openHelp, closeHelpModal }) => {
         <ModalHeading>
           <h3>Need Help?</h3>
         </ModalHeading>
-        {/* <ModalBody>
-          <div className="image">
-            <img src="/Mayank.png" alt="" />
-          </div>
-          <h2>Mayank Gupta</h2>
-          <h4>Full Stack Web Developer</h4>
-          <p>Contact Me:</p>
-          <div className="links">
-            <a
-              href="https://github.com/Mayankkatheriya"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Lottie
-                loop
-                animationData={githubJson}
-                play
-                style={{ width: 50, height: 50 }}
-              />
-              Github
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mayank-gupta-752328173/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Lottie
-                loop
-                animationData={linkedInJson}
-                play
-                style={{ width: 50, height: 50 }}
-              />
-              LinkedIn
-            </a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Lottie
-                loop
-                animationData={instaJson}
-                play
-                style={{ width: 50, height: 50 }}
-              />
-              Instagram
-            </a>
-            <a
-              href="https://www.facebook.com/mayakkatheriya/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Lottie
-                loop
-                animationData={facebookJson}
-                play
-                style={{ width: 50, height: 50 }}
-              />
-              Facebook
-            </a>
-          </div>
-        </ModalBody> */}
       </ModalPopup>
     </Modal>
   );
