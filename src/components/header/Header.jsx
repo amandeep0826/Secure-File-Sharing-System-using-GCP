@@ -102,7 +102,7 @@ const Header = () => {
             <SearchBar />
 
             <RightContainer>
-              <LeftIcons />
+              {/* <LeftIcons /> */}
               <ProfileSection
                 userPhoto={userPhoto}
                 userName={userName}

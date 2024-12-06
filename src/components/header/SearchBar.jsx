@@ -44,7 +44,7 @@ const SearchBar = () => {
           value={searchQuery}
           onChange={(e) => setQuery(e.target.value)}
           onKeyUp={handleSearchByInput}
-          placeholder="Search in Drive"
+          placeholder="Search in your Files"
         />
         <span onClick={handleSearch}>
           <SearchIcons />

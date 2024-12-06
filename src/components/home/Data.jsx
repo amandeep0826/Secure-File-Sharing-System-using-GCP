@@ -76,7 +76,7 @@ const Data = () => {
   return (
     <DataContainer>
       {/* Display page header */}
-      <PageHeader pageTitle={"My Drive"} />
+      <PageHeader pageTitle={"My Dropbox"} />
       {files.length > 0 && <h4>Recents</h4>}
       <div>
         {/* Display recent files in a grid */}

@@ -60,12 +60,12 @@ const Login = () => {
           play
           style={{ width: 120, height: 120 }}
         />
-        <h3>Safe Drive</h3>
+        <h3>LU Dropbox</h3>
         <Button onClick={handleAuth}>Get Started</Button>
         <div className="text">
           <p>
-            A cloud-based storage service that enables users to store and access
-            files online
+            A File-Sharing System which enables LU Students to share their files
+            with ease.
           </p>
           {/* <p>
             Developed with <FavoriteIcon /> by{" "}

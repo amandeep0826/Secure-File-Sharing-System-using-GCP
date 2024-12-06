@@ -15,10 +15,10 @@ const PageHeader = ({ pageTitle }) => {
       <div className="headerLeft">
         <p>{pageTitle}</p>
       </div>
-      <div className="headerRight">
+      {/* <div className="headerRight">
         {pageTitle === "My Drive" ? <ListsIcon /> : <GridIcon />}
         <InfoIcon />
-      </div>
+      </div> */}
     </DataHeader>
   );
 };
@@ -39,7 +39,7 @@ const DataHeader = styled.div`
   .headerRight svg {
     margin: 0px 10px;
     font-size: 25px;
-    color: #5f6368;;
+    color: #5f6368;
   }
 `;
 

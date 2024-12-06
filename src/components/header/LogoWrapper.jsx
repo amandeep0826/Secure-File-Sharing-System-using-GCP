@@ -22,7 +22,7 @@ const LogoWrapperComponent = ({ onClick, userName }) => {
       </div>
       <Link to={"/home"}>
         <Logo>
-          {/* <img src="./google-logo.png" alt="" /> */}
+          <img src="./1.png" alt="" />
           {/* <Lottie
             loop
             animationData={lottieJson}

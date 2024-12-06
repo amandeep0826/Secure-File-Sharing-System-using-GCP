@@ -71,7 +71,7 @@ const SidebarTabs = () => {
               className={isActive ? "tab-active" : ""}
             >
               <MobileScreenShareIcon />
-              <span>My Drive</span>
+              <span>My Dropbox</span>
             </SidebarOption>
           )}
         </NavLink>

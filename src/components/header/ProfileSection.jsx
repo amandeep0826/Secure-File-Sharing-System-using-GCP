@@ -23,9 +23,9 @@ const ProfileSection = ({
 }) => {
   return (
     <RightSection>
-      <div className="searchIcon" onClick={setShowSearch}>
+      {/* <div className="searchIcon" onClick={setShowSearch}>
         {showSearch ? <CloseIcon /> : <SearchIcons />}
-      </div>
+      </div> */}
       <SignOut>
         <UserImg src={userPhoto} alt={userName} />
         <DropDown>
